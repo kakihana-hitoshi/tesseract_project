@@ -16,7 +16,10 @@ pip3 install pytesseract
 ## 実行手順
 ``` bash
 cd tesseract_project
-python test.py
+python exec.py
+
+# OCR対象の画像を第一引数で指定します
+python exec.py google-docu.jpg
 ```
 
 ## OCR対応言語一覧
